@@ -7,33 +7,31 @@
  html, body {
     width: 100%;
     height: 100%;
+    padding-top: 10%;
+    padding-left: 20%;
  }
 
  .form {
     width: 400px;
-    height: 170px;
+    height: 200px;
     text-align: center;
-    padding: 20px;
-    padding-bottom: 0;
-    position: absolute;
-    top: 50;
-    left: 50;
     color: #f5f5f5;
     color: rgb(96, 70, 120);
     border: 1px solid rgb(124, 75, 75);
     border-radius: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    
 }
 
 h1 {
     font-style: 24px;
     margin-bottom: 10px;
+    padding-top: 12px;
 }
 
 p {
     font-style: 16px;
     margin-bottom: 20px;
+    padding-top: 9px;
 }
 
 input[type="email"] {
@@ -45,7 +43,7 @@ input[type="email"] {
 }
 
 button {
-    background-color: #7bb1eb;
+    background-color: #0b3664;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -54,5 +52,6 @@ button {
 }
 
 button:hover {
-    background-color: #0069d9;
+    background-color: #7bb1eb;
+    color: red;
 }
